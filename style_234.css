@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 10px solid red;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+   /*flex-flow: row wrap;  Заменяет flex-direction: row;
+    flex-wrap: wrap;*/
+    justify-content: center;
+    /*justify-content: space-between;*/
+    /*height: 250px;*/
+   }
+.item{
+    border: 1px solid rgb(17, 0, 255);
+    text-align: center;
+    padding: 10px;
+   /* width: calc(100%/3);*/
+   }
+   /*
+   .item9{
+    order: -1;
+   }
+
+   .item4{
+    order: 2;
+   }
+   .item7{
+    order: 1;
+   }
+*/
